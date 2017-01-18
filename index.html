@@ -214,6 +214,18 @@
         <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script>
+            if (window.innerHeight > window.innerWidth) {
+                console.log("Went in");
+                $("h1").css("font-size", "7vh");
+                $("h2").css("font-size", "3vh");
+                $("h3").css("font-size", "7vh");
+                $("h4").css("font-size", "2.7vh");
+                $(".transbox p").css("font-size", "2.7vh");
+                $("p").css("font-size", "2.2vh");
+                $("#contact p").css("font-size", "2.5vh");
+            }
+        </script>
+        <script>
             window.sr = ScrollReveal({ duration: 2000 });
             sr.reveal('#LightBulb');
             sr.reveal('#Intro');
