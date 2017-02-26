@@ -24,6 +24,12 @@
     padding-right: 80px;
 }
 
+#honors {
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 #projects {
     background-color: white;
     padding-left: 50px;
@@ -280,6 +286,12 @@ p {
     height: 150px;
 }
 
+#honors1 {
+    text-align: justify;
+    width: 900px;
+    margin: 60px auto;
+}
+
 #project1 {
     text-align: justify;
     width: 409.594px;
@@ -302,6 +314,12 @@ p {
     text-align: justify;
     width: 409px;
     margin: 60px auto;
+}
+
+.honor img {
+    display: block;
+    height: 395px;
+    box-shadow: 5px 5px 20px #c2c2c2;
 }
 
 .project img {

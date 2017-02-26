@@ -27,6 +27,9 @@
                 <a href="#projectanchor">PROJECTS</a>
             </div>
             <div class="naviButton">
+                <a href="#honorsanchor">HONORS</a>
+            </div>
+            <div class="naviButton">
                 <a href="#skillanchor">SKILLS</a>
             </div>
             <div class="naviButton">
@@ -66,7 +69,7 @@
                         <h1>WAI YING LI</h1>
                         <h2>Undergraduate | UC Davis</h2>
                         <hr class="divider" />
-                        <p>Hi there! I'm Wai Ying or call me Angie! I will be graduating in June 2017. I enjoy coding to problem solve and bringing ideas into reality. Oh, and I am also a giraffe enthusiast and a foodie. Feel free to 
+                        <p>Hi there! I'm Wai Ying or call me Angie! I will be graduating in June 2017. I enjoy coding to problem solve and bringing ideas into reality. My three favorite things you can remember me by are Giraffes, games, and food! Feel free to 
                         contact me through any of my social medias and email! I would love to meet you! :)</p>
                     </div>
                 </div>
@@ -133,6 +136,45 @@
                     <img src="img/Skills/csharp.png" style="top: 50%; height: 120px;" alt="c#" />
                 </div>
             </div>-->
+            <div id="honorsanchor">
+                <h3>Honors</h3>
+                <div id="honors" class="row">
+                    <div id="honors1" class="honor">
+                        <img src="img/Interview Analysis.png" alt="Interview Assistant mock website" />
+                        <h4>Second Place for Best Use of Amazon Alexa (Hackathon)</h4>
+                        <p>
+                            Interview Assistant, originally called Interview Analysis, is a 24-hours hackathon team project that was picked by an Amazon representative as second place for the Best Use of Amazon Alexa category at Hack Davis. Currently, this project uses Amazon Alexa to generate interview questions for the user to practice answering to. The original intent for this project was to have Alexa dictate the user's responses for our website to perform analysis on the user's responses by counting the number of utterances such as "um" or "like" and by using a sentimental analysis API like Alchemy to get an overall percentage of postive/negative sentiment, hence, the original name Interview Analysis. 
+                        </p>
+                        <p>
+                            However, after working with an Amazon representative, it was discovered that Amazon Alexa is currently not at a stage where it can dictate user's responses. 
+                        </p>
+                        <p>
+                            My role in this project was to research setting up a web server as well as creating the mock website. I also assisted with creating the JSON structure for Interview Assistant's intent schema.
+                        </p>
+                        <p><b>Technologies/Languages: </b>HTML5, CSS, JavaScript, Amazon Alexa Skills Set</p>
+                        <a class="url" href="https://devpost.com/software/interviewassistant" target="_blank">Interview Assistant on DevPost</a>
+                        <br />
+                        <a class="url" href="https://github.com/yelleagle/InterviewAssistant" target="_blank">Interview Assistant on GitHub</a>
+                    </div>
+                </div>
+                <div id="honors" class="row">
+                    <div id="honors1" class="honor">
+                        <img src="img/MoonShip.png" alt="Interview Assistant mock website" />
+                        <h4>Best Use of Theme (Game Jam)</h4>
+                        <p>
+                            Moon Ship is a base-building simulation game that I created with three other UC Davis students at the UC Davis's Game Development and 
+                            Arts club's Game Jam. It was picked by the attendees of the Game Jam as the best use of theme, which was the Moon. The original idea for this game was that the user would collect resources (moon ores) on the moon to build a base inside the moon and develop weapons to defeat space intruders.
+                        </p>
+                        <p>
+                            Our team eventually learned that our idea was too ambitious for the 12-hours time limit that we weren't able to fully implement the whole gameplay. However, our team was still able to pull through collaboratively to make a presentable project with the early stages of the gameplay. 
+                        </p>
+                        <p>
+                            My role in this project was to code the truck's gathering of resources on the moon. I implemented gravity on the moon so that the trucks can drive along the curvature of the moon's surface. I also enhanced the appearance of the game by adding in a skybox and texture for the moon by using online materials. 
+                        <p><b>Technologies/Languages: </b>Unity3D and Unity's Collaboration Tool, C#, Blender, Maya</p>
+                        <a class="url" href="https://github.com/waiying/Moon_Ship" target="_blank">Moon Ship on GitHub</a>
+                    </div>
+                </div>
+            </div>
             <div id="projectanchor">
                 <h3>Projects</h3>
                 <div id="projects" class="row">
@@ -143,7 +185,7 @@
                             <p>
                                 Tilt the Snake is a mobile game I made for both Android and iOS over the summer of 2016. It is a game where the player
                                 tilts his/her device to control the snake to eat apples for points and avoid any obstacles in the way. I developed the
-                                whole game except for the sound effect and background music.
+                                whole game except for the sound effects and background music.
                             </p>
                             <p><b>Technologies/API(s): </b>Unity, Photoshop CC, XCode, Facebook API, Admob API</p>
                             <a class="url" href="https://github.com/waiying/Tilt-the-Snake" target="_blank">Tilt the Snake on GitHub</a>
@@ -232,6 +274,7 @@
             sr.reveal('#myPhoto');
             sr.reveal('#content');
             sr.reveal('.mySkill', 150);
+            sr.reveal('#honors');
             sr.reveal('#projects');
             sr.reveal('form');
         </script>
